@@ -1,0 +1,11 @@
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\bin\Debug\CSharp直接连接MySQL.exe.config
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\bin\Debug\CSharp直接连接MySQL.exe
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\bin\Debug\CSharp直接连接MySQL.pdb
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\bin\Debug\MySql.Data.dll
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\bin\Debug\Google.Protobuf.dll
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\bin\Debug\MySql.Data.xml
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.csprojAssemblyReference.cache
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.csproj.CoreCompileInputs.cache
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.csproj.CopyComplete
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.exe
+E:\SikiCourse\PhotonServer\Photon游戏服务器\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.pdb
