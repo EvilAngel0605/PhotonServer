@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp直接连接MySQL", "CSharp直接连接MySQL\CSharp直接连接MySQL.csproj", "{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEC8CAC3-FFA8-470A-BF57-42C0D8F85882}
+	EndGlobalSection
+EndGlobal
