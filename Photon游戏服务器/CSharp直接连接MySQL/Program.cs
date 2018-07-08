@@ -10,12 +10,16 @@ namespace CSharp直接连接MySQL
     {
         static void Main(string[] args)
         {
+
+            //Read();
             //Insert();
             //Update();
-            Delete();
+            //Delete();
+            //ExcuteScale();
+            Console.WriteLine(VerifyUser("zcc1", "zcc"));
             Console.ReadLine();
         }
-        void Read()
+        static void Read()
         {
             string connectStr = "server=127.0.0.1;port=3306;database=mygamedb;user=root;password=root;";
             MySqlConnection conn = new MySqlConnection(connectStr);//并没有连接数据库
@@ -31,7 +35,9 @@ namespace CSharp直接连接MySQL
                 //reader.Read();读取下一页数据，如果读取成功，返回true,如果没有下一页了，读取失败，返回false
                 while (reader.Read())
                 {
-                    Console.WriteLine("{0};{1};{2}", reader[0].ToString(), reader[1].ToString(), reader[2].ToString());
+                    //Console.WriteLine("{0};{1};{2}", reader[0].ToString(), reader[1].ToString(), reader[2].ToString());
+                    //Console.WriteLine("{0};{1};{2}", reader.GetInt32(0),reader.GetString(1),reader.GetString(2));
+                    Console.WriteLine("{0} {1} {2}", reader.GetInt32("id"), reader.GetString("username"), reader.GetString("password"));
                 }
             }
             catch (Exception e)
@@ -106,6 +112,56 @@ namespace CSharp直接连接MySQL
             {
                 conn.Close();
             }
+        }
+        static void ExcuteScale()
+        {
+            string connectStr = "server=127.0.0.1;port=3306;database=mygamedb;user=root;password=root;";
+            MySqlConnection conn = new MySqlConnection(connectStr);//并没有连接数据库
+            try
+            {
+                conn.Open();//开始连接
+                string sqlCmd = "select count(*) from users";
+                MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+                object obj=cmd.ExecuteScalar();
+                Console.WriteLine(obj);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        static bool VerifyUser(string username,string password)
+        {
+            string connectStr = "server=127.0.0.1;port=3306;database=mygamedb;user=root;password=root;";
+            MySqlConnection conn = new MySqlConnection(connectStr);//并没有连接数据库
+            try
+            {
+                conn.Open();//开始连接
+                //string sqlCmd = "select * from users where username='"+username
+                //                +"'and password='"+password+"'";// sql命令
+                string sqlCmd = "select * from users where username =@v1 and password =@v2";
+                MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+                cmd.Parameters.AddWithValue("v1", username);
+                cmd.Parameters.AddWithValue("v2", password);
+                MySqlDataReader reader = cmd.ExecuteReader();
+                if(reader.Read())
+                {
+                    return true;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return false;
         }
     }
 }
