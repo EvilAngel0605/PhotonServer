@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="EvilAngel"
+                   namespace="EvilAngel.Model">
+  <class name="User" table="users">
+    <id name="Id" colume="id" type="int">
+      <generator class="native"></generator>
+    </id>
+    <propety name="Username" colume="username" type="string"></propety>
+    <propety name="Password" colume="password" type="string"></propety>
+    <propety name="Registerdate" colume="registerdate" type="date"></propety>
+  </class>
+</hibernate-mapping>

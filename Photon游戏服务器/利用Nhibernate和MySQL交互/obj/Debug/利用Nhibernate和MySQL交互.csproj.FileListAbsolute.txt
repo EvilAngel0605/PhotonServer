@@ -1,0 +1,1 @@
+E:\SikiCourse\PhotonServer\Photon游戏服务器\利用Nhibernate和MySQL交互\bin\Debug\EvilAngel.exe.config

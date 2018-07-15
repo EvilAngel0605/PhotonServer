@@ -1,0 +1,5 @@
+D:\R-\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.dll
+D:\R-\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.pdb
+E:\SikiCourse\PhotonServer\Photon游戏服务器\MyGameServer\obj\Debug\MyGameServer.dll
+E:\SikiCourse\PhotonServer\Photon游戏服务器\MyGameServer\obj\Debug\MyGameServer.pdb
+D:\R-\PhotonServer\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\log4net.config

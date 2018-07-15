@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp直接连接MySQL", "CSharp直接连接MySQL\CSharp直接连接MySQL.csproj", "{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "利用Nhibernate和MySQL交互", "利用Nhibernate和MySQL交互\利用Nhibernate和MySQL交互.csproj", "{CCC641AC-E902-4954-9800-ECC07F74FA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGameServer", "MyGameServer\MyGameServer.csproj", "{433EB1A0-9720-4AA5-B6E6-3BB8A9989780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49D0C450-78D9-4AE5-BC4E-8DF10ABD5DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC641AC-E902-4954-9800-ECC07F74FA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC641AC-E902-4954-9800-ECC07F74FA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC641AC-E902-4954-9800-ECC07F74FA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC641AC-E902-4954-9800-ECC07F74FA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433EB1A0-9720-4AA5-B6E6-3BB8A9989780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433EB1A0-9720-4AA5-B6E6-3BB8A9989780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433EB1A0-9720-4AA5-B6E6-3BB8A9989780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433EB1A0-9720-4AA5-B6E6-3BB8A9989780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
